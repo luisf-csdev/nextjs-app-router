@@ -9,7 +9,7 @@ import { lusitana } from '@/app/ui/fonts'
 
 import { Button } from './button'
 
-export default function LoginForm() {
+export function LoginForm() {
   return (
     <form className="space-y-3">
       <div className="flex-1 rounded-lg bg-gray-50 px-6 pt-8 pb-4">

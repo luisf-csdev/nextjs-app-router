@@ -11,7 +11,7 @@ import Link from 'next/link'
 import { CustomerField, InvoiceForm } from '@/app/lib/definitions'
 import { Button } from '@/app/ui/button'
 
-export default function EditInvoiceForm({
+export function EditInvoiceForm({
   invoice,
   customers,
 }: {

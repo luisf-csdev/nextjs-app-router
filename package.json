@@ -4,7 +4,9 @@
     "build": "next build",
     "dev": "next dev",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "check-types": "tsc --noEmit",
+    "validate": "pnpm lint && pnpm check-types"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
